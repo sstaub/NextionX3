@@ -19,22 +19,22 @@ uint32_t timing;
 
 void ledOn() {
 	digitalWrite(LED_BUILTIN, HIGH);
-	momentaryLed.attribute("bco", RED);
+	momentaryLed.attributeNumber("bco", RED);
 	}
 
 void ledOff() {
 	digitalWrite(LED_BUILTIN, LOW);
-	momentaryLed.attribute("bco", BLACK);
+	momentaryLed.attributeNumber("bco", BLACK);
 	}
 
 void ledToggle() {
 	if (toggleButton.value() == 1) {
 		digitalWrite(LED_BUILTIN, HIGH);
-		toggleLed.attribute("bco", RED);
+		toggleLed.attributeNumber("bco", RED);
 		}
 	else if (toggleButton.value() == 0){
 		digitalWrite(LED_BUILTIN, LOW);
-		toggleLed.attribute("bco", BLACK);
+		toggleLed.attributeNumber("bco", BLACK);
 		}
 	}
 
@@ -91,7 +91,7 @@ void setup() {
 	nextion.picture(320, 200, 0);
 	delay(1000);
 	nextion.page(0);
-	version.attribute("txt", "v.1.0.0");
+	version.attributeText("txt", "v.1.0.0");
 	number.value(5);
 	text.text("hello");
 	momentaryButton.callbackTouch(ledOn);
