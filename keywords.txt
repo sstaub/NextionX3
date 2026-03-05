@@ -1,0 +1,30 @@
+# Objects (KEYWORD1)
+Nextion			KEYWORD1
+Component		KEYWORD1
+
+# Methods and Functions (KEYWORD2)
+color656					KEYWORD2
+update						KEYWORD2
+page							KEYWORD2
+send							KEYWORD2
+touch							KEYWORD2
+release						KEYWORD2
+value							KEYWORD2
+text							KEYWORD2
+state							KEYWORD2
+attribute					KEYWORD2
+attributeValue		KEYWORD2
+attributeText			KEYWORD2
+cls								KEYWORD2
+line							KEYWORD2
+rectangle					KEYWORD2
+rectangleFilled		KEYWORD2
+circle						KEYWORD2
+circleFilled			KEYWORD2
+picture						KEYWORD2
+pictureCrop				KEYWORD2
+pictureCropX			KEYWORD2
+
+# Structures	(KEYWORD3)
+
+# Constants (LITERAL1)
