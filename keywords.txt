@@ -7,13 +7,16 @@ color656					KEYWORD2
 update						KEYWORD2
 page							KEYWORD2
 send							KEYWORD2
-touch							KEYWORD2
-release						KEYWORD2
+callbackPage			KEYWORD2
+callbackTouch			KEYWORD2
+callBackRelease		KEYWORD2
+callbackValue   	KEYWORD2
+callBackText  		KEYWORD2
 value							KEYWORD2
 text							KEYWORD2
-state							KEYWORD2
-attribute					KEYWORD2
-attributeValue		KEYWORD2
+getValue					KEYWORD2
+getText						KEYWORD2
+attributeNumber		KEYWORD2
 attributeText			KEYWORD2
 cls								KEYWORD2
 line							KEYWORD2
@@ -28,3 +31,13 @@ pictureCropX			KEYWORD2
 # Structures	(KEYWORD3)
 
 # Constants (LITERAL1)
+CROP			LITERAL1
+SOLID			LITERAL1
+IMAGE			LITERAL1
+NOFILL		LITERAL1
+LEFT			LITERAL1
+CENTER		LITERAL1
+RIGHT			LITERAL1
+TOP				LITERAL1
+MIDDLE		LITERAL1
+BOTTOM		LITERAL1
