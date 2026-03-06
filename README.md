@@ -19,7 +19,7 @@ HardwareSerial Serial1(PA10, PA9);
 
 ## Features
 - Dynamic memory handling
-- New parsers, functions and callbacks for page and xy coordintes
+- New parsers, functions and callbacks for page and xy coordinates
 - Special parser for user return codes
 - Using std::string for text, for convert use `.c_str()` function
 - Avoiding templates for better code reading
