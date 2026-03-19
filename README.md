@@ -551,7 +551,7 @@ string textText = text.attributeText("txt", "v.1.0.0");
 enum fill_t { // background fill modes
 	CROP,
 	SOLID,
-	IMAGE,
+	PICTURE,
 	NOFILL
 	};
 

@@ -53,7 +53,7 @@ using namespace std;
 typedef enum Fill {
 	CROP,
 	SOLID,
-	IMAGE,
+	PICTURE,
 	NOFILL
 	} fill_t;
 
